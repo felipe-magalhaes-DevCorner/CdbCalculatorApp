@@ -1,33 +1,33 @@
 # Calculadora de Investimentos CDB
 
-Este projeto È uma aplicaÁ„o web desenvolvida com **ASP.NET Core (back-end)** e **Angular (front-end)**, que simula o rendimento de um investimento em CDB.
+Este projeto √© uma aplica√ß√£o web desenvolvida com **ASP.NET Core (back-end)** e **Angular (front-end)**, que simula o rendimento de um investimento em CDB.
 
 ##  Objetivo
 
-A aplicaÁ„o permite que o usu·rio informe:
+A aplica√ß√£o permite que o usu√°rio informe:
 
-ï Um valor inicial de investimento  
-ï Um prazo em meses  
+‚Ä¢ Um valor inicial de investimento  
+‚Ä¢ Um prazo em meses  
 
-Com base nessas informaÁıes, o sistema calcula:
+Com base nessas informa√ß√µes, o sistema calcula:
 
-ï O valor bruto estimado ao fim do perÌodo  
-ï O valor lÌquido, j· descontando o imposto de renda conforme a tabela regressiva  
+‚Ä¢ O valor bruto estimado ao fim do per√≠odo  
+‚Ä¢ O valor l√≠quido, j√° descontando o imposto de renda conforme a tabela regressiva  
 
 ##  Tecnologias Utilizadas
 
-ï .NET 8 (ASP.NET Core Web API)  
-ï Angular 17  
-ï TypeScript  
-ï HTML/CSS  
+‚Ä¢ .NET 8 (ASP.NET Core Web API)  
+‚Ä¢ Angular 17  
+‚Ä¢ TypeScript  
+‚Ä¢ HTML/CSS  
 
-##  PrÈ-requisitos
+##  Pr√©-requisitos
 
 Antes de rodar o projeto, verifique se possui instalado:
 
-ï .NET SDK 8.0+ ó https://dotnet.microsoft.com/download  
-ï Node.js 18+ e NPM ó https://nodejs.org/  
-ï Visual Studio 2022 com o workload "ASP.NET e desenvolvimento web"  
+‚Ä¢ .NET SDK 8.0+ ‚Äî https://dotnet.microsoft.com/download  
+‚Ä¢ Node.js 18+ e NPM ‚Äî https://nodejs.org/  
+‚Ä¢ Visual Studio 2022 com o workload "ASP.NET e desenvolvimento web"  
 
    git clone https://github.com/seu-usuario/seu-repo.git
    cd CdbCalculatorApp
@@ -35,22 +35,22 @@ Antes de rodar o projeto, verifique se possui instalado:
 
 ##  Como executar o projeto
 
-1) Abra a soluÁ„o no Visual Studio:
+1) Abra a solu√ß√£o no Visual Studio:
 
    Arquivo: `CdbCalculatorApp.sln`
 
-2) Restaure os pacotes e faÁa o build:
+2) Restaure os pacotes e fa√ßa o build:
 
    O Visual Studio realiza isso automaticamente ao abrir o projeto.
 
 3) Execute o projeto:
 
    Pressione F5 para iniciar tanto o front-end Angular quanto a API em conjunto.  
-   O navegador abrir· automaticamente em `https://localhost:<porta>`.
+   O navegador abrir√° automaticamente em `https://localhost:<porta>`.
 
 ##  Testes
 
-O projeto inclui testes unit·rios que cobrem mais de 90% da lÛgica de c·lculo.  
-Para execut·-los, use:
+O projeto inclui testes unit√°rios que cobrem mais de 90% da l√≥gica de c√°lculo.  
+Para execut√°-los, use:
 
 dotnet test
