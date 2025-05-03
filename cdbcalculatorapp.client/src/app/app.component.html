@@ -1,0 +1,23 @@
+<h1>Calculadora de investimentos CDB</h1>
+
+<div class="form-container">
+  <form (ngSubmit)="calcular()" #form="ngForm">
+    <label for="valorInicial">Valor Inicial:</label>
+    <input id="valorInicial" type="number" name="valorInicial" [(ngModel)]="valorInicial" required />
+    <div *ngIf="alertaValor" class="alert alert-danger mt-2">{{ alertaValor }}</div>
+    <label for="prazoMeses">Prazo em Meses:</label>
+    <input id="prazoMeses" type="number" name="prazoMeses" [(ngModel)]="prazoMeses" required />
+    <div *ngIf="alertaPrazo" class="alert alert-danger mt-2">{{ alertaPrazo }}</div>
+
+    <div class="button-group">
+      <button type="submit" [disabled]="form.invalid">Calcular</button>
+      <button type="button" (click)="limpar()">Limpar</button>
+    </div>
+  </form>
+
+ <div *ngIf="resultado">
+   <h3>Resultado</h3>
+   <p><strong>Bruto:</strong> {{ resultado.valorBruto | currency:'BRL' }}</p>
+   <p><strong>Líquido:</strong> {{ resultado.valorLiquido | currency:'BRL' }}</p>
+ </div>
+</div>
