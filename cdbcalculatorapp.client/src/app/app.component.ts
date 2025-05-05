@@ -25,7 +25,7 @@ export class AppComponent {
     }
 
     if (!this.prazoMeses || this.prazoMeses <= 1) {
-      this.alertaPrazo = 'O prazo deve ser maior que 0.';
+      this.alertaPrazo = 'O prazo deve ser maior que 1.';
     }
 
     if (this.alertaValor || this.alertaPrazo) {

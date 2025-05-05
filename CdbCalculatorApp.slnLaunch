@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CdbCalculatorApp.Server\\CdbCalculatorApp.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "cdbcalculatorapp.client\\cdbcalculatorapp.client.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
